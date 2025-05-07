@@ -17,7 +17,3 @@ def update_item(item: Item):
     name = item.name
     items[name] = item.description
     return item
-
-@app.get("/items")
-def show_items():
-    return items
